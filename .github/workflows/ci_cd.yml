@@ -56,7 +56,7 @@ jobs:
     needs: [backend_flask]
     runs-on: ubuntu-latest
     # Important step - add your environment name
-    environment: TESTING
+    environment: PROD
     steps:
       - uses: actions/checkout@v3
 
